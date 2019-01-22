@@ -16,7 +16,7 @@ export class FilterPipe implements PipeTransform {
       let matchesName = it.name.toLowerCase().includes(searchText);
       let matchesPhone = it.phone.toLowerCase().includes(searchText);
       let matchesEmail = it.email.toLowerCase().includes(searchText);
-      return matchesName || matchesPhone
+      return matchesName || matchesPhone || matchesEmail
     });
   }
 }
