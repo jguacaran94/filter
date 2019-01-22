@@ -6,7 +6,7 @@
 	<input [(ngModel)]="searchText" placeholder="Search any">
 	<ul>
 		<li *ngFor="let c of contacts | filter: searchText">
-			{{c}}
+			{{c.name}} {{c.phone}} {{c.email}}
 		</li>
 	</ul>
 

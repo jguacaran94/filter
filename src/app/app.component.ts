@@ -9,9 +9,9 @@ export class AppComponent {
   title = 'My App Filter';
 
   contacts = [
-    'John Lennon',
-    'Paul McCartney',
-    'George Harrison',
-    'Ringo Star'
+    {name:'John Lennon', phone: '112', email: 'john.lennon@beatles.com'},
+    {name:'Paul McCartney', phone: '223', email: 'paul.mccartney@beatles.com'},
+    {name:'George Harrison', phone: '334', email: 'george.harrison@beatles.com'},
+    {name:'Ringo Star', phone: '445', email: 'ringo.star@beatles.com'}
   ]
 }
